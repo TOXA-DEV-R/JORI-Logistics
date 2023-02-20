@@ -1,0 +1,19 @@
+{
+  "$schema": [],
+
+  "app": {
+    "version": "v2.0.0",
+    "language": "kz",
+
+    "available_locales": ["kz", "ru", "en"]
+  },
+
+  "headers": {
+    "ALLOW_ORIGIN": "*"
+  },
+
+  "BASE_URL": "",
+  "API_URL": "",
+  "UPDATE_CHATS_TIME": "25000",
+  "UPDATE_CHATS_MESSAGES_TIME": "25000"
+}
