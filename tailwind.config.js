@@ -42,29 +42,39 @@ const config = {
         },
 
         screens: {
-          xs: "576px",
-          sm: "768px",
-          md: "992px",
-          lg: "1200px",
-          xl: "1392px",
+          sm: "640px",
+          md: "768px",
+          lg: "1024px",
+          xl: "1232px",
         },
       },
       screens: {
-        xs: "576px",
-        sm: "768px",
-        md: "992px",
-        lg: "1200px",
-        xl: "1392px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1232px",
 
-        "-xs": { max: "575px" },
-        "-sm": { max: "767px" },
-        "-md": { max: "991px" },
-        "-lg": { max: "1199px" },
-        "-xl": { max: "1391px" },
+        "-sm": { max: "640px" },
+        "-md": { max: "768px" },
+        "-lg": { max: "1024px" },
+        "-xl": { max: "1232px" },
       },
-
-      // fontSize: {},
+      colors: {
+        red: {
+          DEFAULT: "#E2231A",
+        },
+        black: {
+          DEFAULT: "#151515",
+          10: "#DEDEDE",
+        },
+      },
+      fontSize: {
+        base: ["1rem", "1.1875rem"],
+        "5xl": ["2.8125rem", "3.4375rem"],
+        lg: ["1.125rem", "1.5625rem"],
+      },
       borderRadius: {
+        md: "5px",
         "4xl": "30px",
         "5xl": "50px",
       },

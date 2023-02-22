@@ -24,9 +24,13 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      title: "Bonny",
+      title: "Jori Logistics",
       link: [
-        { rel: "icon", type: "image/svg+xml", href: "/icons/brand-logo.svg" },
+        {
+          rel: "icon",
+          type: "image/svg+xml",
+          href: "/icons/brand/brand-logo.svg",
+        },
         {
           rel: "preconnect",
           href: "https://fonts.googleapis.com",
@@ -38,12 +42,7 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800;900&family=Oxanium:wght@400;500&display=swap",
-        },
-      ],
-      script: [
-        {
-          src: "https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js",
+          href: "https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap",
         },
       ],
     },
@@ -53,7 +52,7 @@ export default defineNuxtConfig({
     shim: false,
   },
   swiper: {
-    modules: ["navigation", "autoplay"],
+    modules: ["navigation", "autoplay", "pagination"],
   },
   postcss: {
     plugins: {

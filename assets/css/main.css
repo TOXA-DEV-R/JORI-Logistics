@@ -3,14 +3,8 @@
 @tailwind utilities;
 
 @layer base {
-  #__nuxt {
-    width: 100%;
-    overflow-x: hidden;
-  }
-
   body {
-    width: 100%;
-    background-color: #fbfafb;
+    font-family: "Raleway", sans-serif;
     overflow-x: hidden;
   }
 }

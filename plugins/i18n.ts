@@ -1,6 +1,6 @@
 import { createI18n } from "vue-i18n";
 import { useLocalStorage } from "@vueuse/core";
-import { app } from "~~/bonny.config.json";
+import { app } from "@@/jori.config.json";
 import { kz, ru, en } from "@@/locales";
 
 export default defineNuxtPlugin(({ vueApp }) => {
@@ -11,9 +11,9 @@ export default defineNuxtPlugin(({ vueApp }) => {
   const i18n = createI18n({
     legacy: false,
     globalInjection: true,
-    locale: lang ?? "kz",
+    locale: lang ?? "en",
     availableLocales: app.available_locales,
-    fallbackLocale: "kz",
+    fallbackLocale: "en",
     messages: { kz, ru, en },
   });
 

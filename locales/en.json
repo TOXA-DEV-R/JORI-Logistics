@@ -1,3 +1,63 @@
 {
-  "hello": "Hello"
+  "header": {
+    "main": "main",
+    "services": "Services",
+    "customs_brokerage": "Customs Brokerage",
+    "freight_forwarding": "Freight Forwarding",
+    "trade_consulting": "Trade Consulting",
+    "warehousing": "Warehousing",
+    "portfolio": "Portfolio",
+    "about": "about us",
+    "career": "Сareer",
+    "contact": "Contact us"
+  },
+  "hero": {
+    "title": "Your solution to global transportation needs",
+    "des": "Freight forwarding and customs brokerage services",
+    "btn": "get consultation"
+  },
+  "care": {
+    "title": "We care about your business",
+    "des": "That’s Why We Provide Smart Transportation Solutions – From Customs Clearance To Freight Forwarding.",
+    "customs_brokerage": "Customs Brokerage ",
+    "customs_brokerage_des": "We take the complexity out of customs clearances so you can focus on running your business.",
+    "freight_forwarding": "Freight Forwarding",
+    "freight_forwarding_des": "JORI Logistics’ freight forwarding capabilities will expand your business beyond borders.",
+    "trade_consulting": "Trade Consulting",
+    "trade_consulting_des": "JORI Logistics offers a handful of other supply chain consulting services on a case by case basis.",
+    "warehousing": "Warehousing",
+    "warehousing_des": "Turnkey warehouse solutions. We can deliver goods from anywhere in the world to our warehouse."
+  },
+  "reviews": {
+    "title": "Reviews",
+    "des": "What I value the most about JORI International is their customer service and on time deadlines. <br> There are so many other competitors out there who would want our business but there is no way they could give us the service we get with JORI International, so why would we go anywhere else?"
+  },
+  "logistics-knowledge": {
+    "title": "Grow Your Logistics Knowledge",
+    "des": "with these Upcoming Free Webinars",
+    "US": "U.S. Customs Basics for Canadian Exporters​ (Intermediate)​",
+    "US_date": "June 16th, 2022 <br> 1:00 PM – 2:30 PM",
+    "CN": "U.S. Customs Basics for Canadian Exporters​",
+    "CN_date": "December 9, 2021 <br> 1:00 PM – 2:30 PM",
+    "update": "Update to the CBSA Assessment and Revenue Management (CARM)",
+    "update_date": "September 9, 2021 <br> 1:00 PM – 2:30 PM",
+    "registry": "REGISTER"
+  },
+  "about": {
+    "title": "JORI Logistics",
+    "des": "As a family owned and operated company headquartered in Calgary, with offices in Houston, Almaty and Cebu City, JORI is small enough to care and big enough to matter. We combine unparalleled customer service with robust technology solutions to transform logistics into a competitive advantage for importers and exporters. Since 1992 we’ve provided turnkey logistics services, including: Canadian Customs Brokerage, U.S. Customs Brokerage, Air Freight, Ocean Freight, Ground Freight, Trade Consulting and more.",
+    "btn": "about us"
+  },
+  "proud-member": {
+    "title": "JORI is a proud member of"
+  },
+  "contact": {
+    "title": "Request a Call Back",
+    "des": "Please complete our call back form and we will call you back."
+  },
+  "form": {
+    "name": "Your Name",
+    "phone": "Your Phone",
+    "send": "Send request"
+  }
 }
